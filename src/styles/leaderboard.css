@@ -1,0 +1,28 @@
+.leaderboard-container {
+    margin: auto;
+  }
+  
+  .leaderboard {
+    max-height: 30rem; /* Adjust as needed */
+    overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+  }
+  
+  /* Hide scrollbar for WebKit browsers */
+  .leaderboard::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  
+  /* For all browsers: Hide scrollbar, but keep the ability to scroll */
+  .leaderboard {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    overflow: -moz-scrollbars-none;  /* Firefox */
+  }
+  
+  .leaderboard::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
+  

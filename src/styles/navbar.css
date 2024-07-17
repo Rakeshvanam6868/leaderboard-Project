@@ -1,0 +1,18 @@
+.navbar{
+    display:flex;
+    background-color:#1B1B1B;
+    color:white;
+    justify-content:space-between;
+    padding:5px 40px;
+    align-items:center;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+.left p{
+    font-size:12px;
+}

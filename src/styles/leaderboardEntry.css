@@ -1,0 +1,45 @@
+.leaderboard-entry {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px 25px 2px 1px;
+    justify-content: space-between;
+    border-radius: 3px 3px 40px 3px;
+    font-size:20px;
+    font-weight:600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .leader-left {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 43px;
+
+  }
+  
+  .rank-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 3px 3px 15px 3px;
+  }
+  
+  .rank {
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+  }
+
+
+  .time-block{
+    display:flex;
+    gap:20px;
+  }
+  
+
+
+  
+  
+  
