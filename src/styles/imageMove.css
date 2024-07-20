@@ -1,11 +1,15 @@
-/* ImageMove.css */
-
 .image-scroll {
-    width: 100%;
-  }
-  
-  .image-scroll img {
-    width: 100%;
-    object-fit:cover; /* Ensures the image covers the entire container */
-  }
-  
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 48.5%; /* Aspect ratio 16:9 (e.g., 9 / 16 * 100%) */
+}
+
+.image-scroll img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
